@@ -1,0 +1,43 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0a1a33, #0f2a4d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e6ecf3;
+}
+
+#app {
+  text-align: center;
+}
+
+#danger-btn {
+  padding: 24px 48px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e6ecf3;
+  background-color: #163a6b;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+#danger-btn:hover {
+  background-color: #1d4b8f;
+  transform: translateY(-2px);
+}
+
+#danger-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
